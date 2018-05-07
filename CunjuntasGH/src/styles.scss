@@ -1,0 +1,20 @@
+
+body {
+    background: linear-gradient(132deg, #f5f5f3, #eeeaca ,#f5f5f3, #f1d3ca,#f5f5f3, #dcebfc);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%
+
+}
